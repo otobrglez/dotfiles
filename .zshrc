@@ -9,21 +9,24 @@ alias bi='bundle '
 alias phpunit='php vendor/bin/phpunit'
 alias git=hub
 
+alias rg='rails g '
+
 # DISABLE_AUTO_UPDATE="true"
 
 plugins=(git ruby)
 
 source $ZSH/oh-my-zsh.sh
 
-
 # vim as editor
 export VISUAL=vim
 export EDITOR=$VISUAL
+export BUNDLER_EDITOR=subl
 
-
-export PATH="/usr/local/sbin:$PATH"
 
 export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+
+export PATH=/usr/local/sbin:$PATH
+export PATH=/usr/local/bin:$PATH
 
 # RVM
 export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

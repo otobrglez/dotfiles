@@ -1,0 +1,16 @@
+{
+	"color_scheme": "Packages/Theme - Flatland/Flatland Monokai.tmTheme",
+	"font_face": "Source Code Pro ExtraLight",
+	"font_size": 13.0,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"tab_size": 2,
+	"theme": "Flatland Dark.sublime-theme",
+
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true,
+	"ensure_newline_at_eof_on_save": true
+}
